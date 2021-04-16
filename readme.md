@@ -4,9 +4,9 @@ A contract for determining if two parties are in agreement. Only the principal o
 
 ## Usage
 
-The contract exposes five main methods: `update-party-1-principal`, `update-party-1-principal`, `update-party-1-decision`, `update-party-2-decision`, and `is-agreement`.
+The contract exposes five main methods: `update-party-1-principal`, `update-party-2-principal`, `update-party-1-decision`, `update-party-2-decision`, and `is-agreement`.
 
-### `update-party-1-principal`, `update-party-1-principal`
+### `update-party-1-principal`, `update-party-2-principal`
 
 These methods change the state of `party-1-principal` and `party-2-principal` respectively. Only the current principals of each party can update the new principal.
 
